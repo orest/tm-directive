@@ -11,9 +11,8 @@ export class CwsClickDirective {
   onElementClick(event) {
 
     console.log(event.target.dataset["role"])
-
     //console.log(this.el.nativeElement["id"]);
-    this.router.navigateByUrl("details");
+    //this.router.navigateByUrl("details");
 
 
     console.log(this.data);

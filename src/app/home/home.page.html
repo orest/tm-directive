@@ -14,15 +14,27 @@
   </ion-header>
 
   <div id="container">
-    <div class="ion-padding" >
-     <h1 cwsclick>click me</h1>
+    <!-- <div class="ion-padding">
+      <h1 cwsclick>click me</h1>
     </div>
-    <ion-button cwsclick (click)="test()" >Button </ion-button>
+    <ion-button cwsclick (click)="test()">Button </ion-button>
     <br>
-    <div cwsclick [data]="tm" >
+    <hr>
+    <div cwsclick [data]="tm" class="cwsclick">
       <div [innerHtml]="dynamicHtml">
-
       </div>
     </div>
+    <hr>
+    <ion-button color="secondary" (click)="showPop()">
+      Show Alert
+    </ion-button>
+    <ion-button color="secondary" (click)="showModal()">
+      Show Modal
+    </ion-button>
+    <app-cws-tm-modal [tm]="tm"></app-cws-tm-modal> -->
+<div>
+  <app-cws-target-message></app-cws-target-message>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eum neque earum quis at unde optio cum iusto accusamus dolor in hic sunt ut saepe non placeat, odio id consequatur.
+</div>
   </div>
 </ion-content>
